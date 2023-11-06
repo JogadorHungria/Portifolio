@@ -21,6 +21,8 @@ export const StyledCertificate = styled.div`
     max-width: 90%;
     background-color: black;
     transition: 0.3s;
+
+    border-radius: 12px;
   }
 
   img:hover {
