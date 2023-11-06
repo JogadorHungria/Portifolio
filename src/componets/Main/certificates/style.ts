@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const StyledCertificate = styled.div`
   margin-top: 100px;
+  padding: 50px;
+  max-width: 1000px;
 
   div {
     margin-top: 50px;
@@ -14,8 +16,9 @@ export const StyledCertificate = styled.div`
   }
 
   img {
-    width: 300px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
+    max-width: 90%;
     background-color: black;
     transition: 0.3s;
   }

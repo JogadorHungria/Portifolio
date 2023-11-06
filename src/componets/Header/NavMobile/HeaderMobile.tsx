@@ -23,6 +23,14 @@ export const NavMobile = ({ openCloseMenu }) => {
           Sobre mim
         </a>
 
+        <a
+          onClick={() => openCloseMenu()}
+          className="menu"
+          href="#certificates"
+        >
+          Certificados
+        </a>
+
         <a onClick={() => openCloseMenu()} className="menu" href="#contacts">
           Contatos
         </a>

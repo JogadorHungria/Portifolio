@@ -4,7 +4,7 @@ import { StyledCertificate } from "./style";
 
 export const Certificates = () => {
   return (
-    <div className="effectScrollMonitoring">
+    <div id="certificates" className="effectScrollMonitoring">
       <StyledCertificate>
         <Title text={"Certificados"} />
         <div>

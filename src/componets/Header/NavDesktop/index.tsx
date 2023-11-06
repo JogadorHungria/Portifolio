@@ -9,6 +9,10 @@ export const NavDesktop = () => {
         Sobre mim
       </a>
 
+      <a className="menu" href="#certificates">
+        certificados
+      </a>
+
       <a className="menu" href="#contacts">
         Contatos
       </a>
