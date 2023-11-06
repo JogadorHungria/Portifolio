@@ -8,6 +8,7 @@ import { Modal } from "./modal";
 import { useContext } from "react";
 import { GlobalContext } from "../../contexts";
 import { Contacts } from "./Contacts";
+import { Certificates } from "./certificates";
 export const Main = () => {
   const { opemModal } = useContext(GlobalContext);
 
@@ -16,6 +17,7 @@ export const Main = () => {
       {opemModal && <Modal />}
       <Inicio />
       <SobreMin />
+      <Certificates />
       <Contacts />
       <Tecnologias sizeIcon={70} />
       <Projetos />
