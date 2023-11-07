@@ -1,4 +1,3 @@
-import { ButtonOne } from "../ButtonTypeOne";
 import { StyledFooter } from "./StyledFooter";
 
 export const Footer = () => {

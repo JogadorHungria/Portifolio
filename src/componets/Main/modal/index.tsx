@@ -32,7 +32,7 @@ export const Modal = () => {
         <p>{cardSelected.descricao}</p>
 
         <div className="container__Stack">
-          <h2>stack</h2>
+          <h2>Stack</h2>
 
           <ul>
             {cardSelected.stack.find((e) => e == "React") && (
