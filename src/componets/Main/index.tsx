@@ -18,9 +18,9 @@ export const Main = () => {
       <Inicio />
       <SobreMin />
       <Certificates />
-      <Contacts />
       <Tecnologias sizeIcon={70} />
       <Projetos />
+      <Contacts />
     </MainStyleds>
   );
 };
