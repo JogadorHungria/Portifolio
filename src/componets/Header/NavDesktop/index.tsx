@@ -13,16 +13,16 @@ export const NavDesktop = () => {
         Certificados
       </a>
 
-      <a className="menu" href="#contacts">
-        Contatos
-      </a>
-
       <a className="menu" href="#stacks">
         Habilidades
       </a>
 
       <a className="menu" href="#projects">
         Projetos
+      </a>
+
+      <a className="menu" href="#contacts">
+        Contatos
       </a>
     </nav>
   );

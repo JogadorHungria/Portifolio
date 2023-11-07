@@ -31,16 +31,16 @@ export const NavMobile = ({ openCloseMenu }) => {
           Certificados
         </a>
 
-        <a onClick={() => openCloseMenu()} className="menu" href="#contacts">
-          Contatos
-        </a>
-
         <a onClick={() => openCloseMenu()} className="menu" href="#stacks">
           Habilidades
         </a>
 
         <a onClick={() => openCloseMenu()} className="menu" href="#projects">
           Projetos
+        </a>
+
+        <a onClick={() => openCloseMenu()} className="menu" href="#contacts">
+          Contatos
         </a>
       </nav>
     </MenuMobileStyle>
