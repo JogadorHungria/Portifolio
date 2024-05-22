@@ -5,7 +5,7 @@ export const Footer = () => {
     <>
       <StyledFooter>
         <a href="#">Voltar ao topo</a>
-        <span>@Desenvolverdor - Joilson Hungria</span>
+        <span>@Joilson Hungria</span>
       </StyledFooter>
     </>
   );
