@@ -3,9 +3,9 @@ import { HeaderStyle } from "./HeaderStyle";
 import { HiMenu } from "react-icons/hi";
 import { NavDesktop } from "./NavDesktop";
 
-export const Header = ({ setMenuHamburguer, menuHamburguer }) => {
+export const Header = ({ setMenuMobile, menuMobile }) => {
   const functionOpemMenu = () => {
-    setMenuHamburguer(!menuHamburguer);
+    setMenuMobile(!menuMobile);
   };
 
   return (

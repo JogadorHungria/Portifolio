@@ -6,20 +6,20 @@ import { BackDrop } from "./componets/BackDrop";
 import { Footer } from "./componets/Footer";
 
 function App() {
-  const [menuHamburguer, setMenuHamburgeur] = useState(false);
+  const [menuMobile, setMenuMobile] = useState(false);
 
   const openCloseMenu = () => {
-    setMenuHamburgeur(false);
+    setMenuMobile(false);
   };
 
   return (
     <div className="App">
       <BackDrop />
       <Header
-        setMenuHamburguer={setMenuHamburgeur}
-        menuHamburguer={menuHamburguer}
+        setMenuMobile={setMenuMobile}
+        menuMobile={menuMobile}
       />
-      {menuHamburguer && <NavMobile openCloseMenu={openCloseMenu} />}
+      {menuMobile && <NavMobile openCloseMenu={openCloseMenu} />}
       <Main />
       <Footer />
     </div>
