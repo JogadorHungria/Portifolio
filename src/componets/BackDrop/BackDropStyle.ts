@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BackDropStyles = styled.div`
-  background-color: rgba(0, 0, 0, 0.65);
+  /* background-color: rgba(0, 0, 0, 0.65); */
   position: fixed;
 
   width: 100vw;

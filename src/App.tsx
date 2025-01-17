@@ -8,7 +8,7 @@ import { Footer } from "./componets/Footer";
 function App() {
   const [menuMobile, setMenuMobile] = useState(false);
 
-  const openCloseMenu = () => {
+  const closeMenuMobile = () => {
     setMenuMobile(false);
   };
 
@@ -19,7 +19,7 @@ function App() {
         setMenuMobile={setMenuMobile}
         menuMobile={menuMobile}
       />
-      {menuMobile && <NavMobile openCloseMenu={openCloseMenu} />}
+      {menuMobile && <NavMobile openCloseMenu={closeMenuMobile} />}
       <Main />
       <Footer />
     </div>

@@ -25,10 +25,10 @@ export const HeaderStyle = styled.header`
     max-width: var(--container--1);
     margin: 0 auto;
 
-    /* h1 {
+    h1 {
       font-size: var(--font-title-2);
       font-family: "Carter One", cursive, "Inter", sans-serif;
-    } */
+    }
 
     svg {
       opacity: 80%;
